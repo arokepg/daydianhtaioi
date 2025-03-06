@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  background-color: #4C566A;
+  text-align: center;
+}
+
+.Button {
+  background-color: #F2EDDB;
+  font-family: 'Bungee', cursive;
+  font-size: 2rem;
+  color: #000000;
+  border-radius: 33px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+  width: 100%;
+  box-shadow: 0 9px #999;
+  transition: all 0.05s ease-in-out;
+  text-decoration: none;
+}
+
+.Button:hover {background-color: #EBCB8B}
+
+.Button:active {
+  background-color: #D08770;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.Buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.nav-container {
+  top: 0;
+  width: 100%;
+  height: 120px;
+  background-color: #81A1C1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  list-style-type: none;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-left: 42%;  
+}
+
+.nav-items {
+  text-transform: uppercase; 
+  width: 220px;
+  margin-right: 2%;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch > span.on {
+  left: 0;
+  padding-left: 2px;
+  color: #F36F25;
+}
+
+.switch > span.off {
+  right: 0;
+  padding-right: 4px;
+  color: #fff;
+}
+
+p {
+  font-family: 'Bungee', cursive;
+  font-size: 30px;
+  text-overflow: ellipsis;
+  text-align: left;
+}
+
+.VideoPlayer {
+  margin-top: 7.5%;
+}
+
+.file-manager {
+  margin-top: 7.5%;
+  margin-left: 67%;
+}

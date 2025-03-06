@@ -1,0 +1,38 @@
+.Main {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("/public/img/main/background.jpg");
+  background-position: 0 95%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.Title {
+  color: #F2EDDB;
+
+  font-family: 'Alfa Slab One', cursive;
+  font-weight: bold;
+  font-size: 60px;
+  -webkit-text-stroke: 0.1px #B76E22;
+  word-spacing: 1px;
+  letter-spacing: 4px;
+  text-shadow: 0 9px #999;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.Buttons > * {
+  width: 120%;
+  padding: 1rem 3rem;
+  margin-top: 5%
+}
+
+
+
